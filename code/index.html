@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="imgs">
+    <title>Bugatti Chiron</title>
+</head>
+<body>
+    <div class="top-nav">
+    <button onclick="showCar('pagani')">Pagani</button>
+    <button onclick="showCar('ferrari')">Ferrari</button>
+    <button onclick="showCar('smart')">Smart</button>
+    <button onclick="showCar('lambo')">Lamborghini</button>
+    <button onclick="showCar('bugatti')">Bugatti</button>
+</div>
+
+<div class="showcase">
+
+    <h1 id="carName">Bugatti Chiron</h1>
+
+    <img id="carImage" src="code\imgs\OIP (2).webp">
+
+    <div class="description" id="description">
+        Legendary hypercar capable of over 300 mph.
+    </div>
+
+    <div class="stats">
+
+        <div class="stat-card">
+            <h3>Top Speed</h3>
+            <p id="speed">304 MPH</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Horsepower</h3>
+            <p id="hp">1500 HP</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>0-60</h3>
+            <p id="accel">2.3s</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Price</h3>
+            <p id="price">$3M</p>
+        </div>
+
+    </div>
+
+</div>
+    <script src="js.js"></script>
+</body>
+</html>
