@@ -2,7 +2,7 @@ const cars = {
 
 bugatti:{
 name:"Bugatti Chiron",
-image:"images/bugatti.jpg",
+image:"imgs/OIP.webp",
 speed:"304 MPH",
 hp:"1500 HP",
 accel:"2.3s",
@@ -12,7 +12,7 @@ description:"Legendary hypercar."
 
 lambo:{
 name:"Lamborghini Aventador",
-image:"images/lambo.jpg",
+image:"imgs/OIP (4).webp",
 speed:"217 MPH",
 hp:"769 HP",
 accel:"2.8s",
@@ -22,7 +22,7 @@ description:"Italian V12 supercar."
 
 ferrari:{
 name:"Ferrari Concept",
-image:"images/ferrari.jpg",
+image:"imgs/OIP (1).webp",
 speed:"220 MPH",
 hp:"830 HP",
 accel:"2.9s",
@@ -32,7 +32,7 @@ description:"Futuristic Ferrari concept."
 
 pagani:{
 name:"Pagani Huayra",
-image:"images/pagani.jpg",
+image:"imgs/download.webp",
 speed:"238 MPH",
 hp:"791 HP",
 accel:"2.8s",
@@ -42,7 +42,7 @@ description:"Hand-built Italian hypercar."
 
 smart:{
 name:"Smart Brabus",
-image:"images/smart.jpg",
+image:"imgs/OIP (2).webp",
 speed:"96 MPH",
 hp:"109 HP",
 accel:"9.5s",
